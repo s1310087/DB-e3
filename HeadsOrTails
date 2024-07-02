@@ -19,8 +19,8 @@ public class HeadsOrTails{
 
         }
          System.out.println("Heads: " + count + "Tails: " + (3-count));
-         if(count < 2)System.out.println("you lost.");
-         else System.out.println("you won");
+         if(count < 2)System.out.println(name + "lost.");
+         else System.out.println(name + "won!");
     }
     public static String headOrTail(){
         Random rand = new Random();
